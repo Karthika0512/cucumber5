@@ -8,8 +8,14 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features ={"src/test/resources"}, glue= {"com.fb.stepdefinition"})
+@CucumberOptions(features ={"src/test/resources/customer"}, glue= {"com.fb.stepdefinition"},plugin="html.target")
 public class TestRunner {
 	
 
 }
+
+
+
+
+
+
